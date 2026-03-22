@@ -1,0 +1,18 @@
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+
+<div class="container">
+  <h1>📝 클라우드 메모장</h1>
+  
+  <form id="memo-form">
+    <textarea id="memo-input" placeholder="여기에 메모를 입력하세요..." required></textarea>
+    <div class="input-group">
+      <input type="file" id="file-input">
+      <button type="submit" id="submit-btn">메모 저장</button>
+    </div>
+  </form>
+
+  <ul id="memo-list">
+    </ul>
+</div>
